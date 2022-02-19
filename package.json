@@ -1,6 +1,6 @@
 {
   "name": "@ahreji-tickets/common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/idex.d.ts",
