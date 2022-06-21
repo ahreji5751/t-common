@@ -15,3 +15,4 @@ export { Listener } from './events/listener';
 export { Subjects } from './events/types/subjects';
 export { TicketCreatedEvent } from './events/types/ticket-created-event';
 export { TicketUpdatedEvent } from './events/types/ticket-updated-event';
+export { OrderStatus } from './events/types/order-status';
