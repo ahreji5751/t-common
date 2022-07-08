@@ -4,7 +4,7 @@ import { Subjects } from './types/subjects';
 export abstract class Publisher<Event extends any, Subject extends Subjects> {
   abstract subject: Subject;
 
-  private client: Stan;
+  protected client: Stan;
 
   constructor(client: Stan) {
     this.client = client;
